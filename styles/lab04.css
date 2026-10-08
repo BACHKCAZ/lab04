@@ -7,42 +7,41 @@ last modified: 10/8/2026
 description: lab04.html
 */
 
-/* 1. Universal element selector */
+
 * {
     font-family: Calibri, sans-serif;
     color: #2F4F4F;
 }
 
-/* 2. Element selector for Heading 1 */
+
 h1 {
     color: purple;
     font-size: 2em;
     font-weight: bold;
 }
 
-/* 3. Heading 2 style */
+
 h2 {
     color: rgb(0, 128, 128);
     font-weight: bold;
     font-size: 1.5em;
 }
 
-/* 4. Group selector for Headings font */
+
 h1, h2, h3 {
     font-family: Arial, sans-serif;
 }
 
-/* 5. Group selector for italic text in aside and footer */
+
 aside, footer {
     font-style: italic;
 }
 
-/* 6. Group selector for table borders */
 table, th, td {
     border: 1px solid black;
 }
 
-/* 7. ID selectors */
+
 #images {
     text-align: center;
 }
@@ -51,7 +50,7 @@ table, th, td {
     color: red;
 }
 
-/* 8. Class selectors */
+
 .special {
     color: darkorange;
     font-weight: bold;
@@ -61,7 +60,7 @@ table, th, td {
     text-align: right;
 }
 
-/* 9. Contextual selectors */
+
 nav a {
     text-decoration: none;
     padding: 0.2em 0.6em;
@@ -73,7 +72,7 @@ ol ul {
     list-style-type: square;
 }
 
-/* 10. Pseudo-classes */
+
 aside:hover {
     display: none;
 }
