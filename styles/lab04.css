@@ -71,3 +71,9 @@ nav a:hover {
     background-color: lightblue;
     border-color: darkblue;
 }
+
+article {
+    border-left: 2px solid steelblue;
+    padding-left: 15px;
+    margin-left: 10px;
+}
